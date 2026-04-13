@@ -1307,8 +1307,10 @@
 
       /* Hero */
       .hero-grid { grid-template-columns: 1fr !important; }
+      .hero-grid > * { min-width: 0 !important; }
       .hero-visual { order: -1 !important; flex-direction: column !important; align-items: center !important; width: 100% !important; }
       .hero-robot-wrap { max-width: 300px !important; min-height: 260px !important; margin: 0 auto !important; }
+      .hero-title { overflow-wrap: break-word !important; word-break: break-word !important; }
       .hero-floating-card { display: none !important; }
       .hero-proj-strip {
         display: flex !important;
