@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вайбкодинг с Claude — Гайд для команды NeuroKids</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;800&family=Golos+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    :root {
+      --bg: #080C15;
+      --bg-2: #0F1520;
+      --bg-3: #141C2E;
+      --card: #111827;
+      --card-border: rgba(124, 58, 237, 0.18);
+      --purple: #7C3AED;
+      --purple-light: #9D6FE8;
+      --purple-glow: rgba(124, 58, 237, 0.25);
+      --amber: #F59E0B;
+      --text: #E8EDF5;
+      --text-2: #94A3B8;
+      --text-3: #64748B;
+      --radius: 16px;
+      --radius-sm: 10px;
+    }
+
+    body {
+      font-family: 'Golos Text', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 32px 80px;
+    }
+
+    /* ─── TYPOGRAPHY ─── */
+    h1 { font-family: 'Unbounded', sans-serif; font-size: 2rem; font-weight: 800; line-height: 1.15; letter-spacing: -0.02em; }
+    h2 { font-family: 'Unbounded', sans-serif; font-size: 1.15rem; font-weight: 700; line-height: 1.2; }
+    h3 { font-family: 'Unbounded', sans-serif; font-size: 0.9rem; font-weight: 600; color: var(--purple-light); }
+    p { color: var(--text-2); font-size: 0.95rem; }
+    strong { color: var(--text); font-weight: 600; }
+
+    .label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--purple-light);
+    }
+
+    /* ─── COVER ─── */
+    .cover {
+      min-height: 320px;
+      border-radius: 24px;
+      background: linear-gradient(135deg, #0F0A1E 0%, #1A0D3A 50%, #0A1628 100%);
+      border: 1px solid var(--card-border);
+      padding: 56px 48px;
+      margin-bottom: 48px;
+      position: relative;
+      overflow: hidden;
+    }
+    .cover::before {
+      content: '';
+      position: absolute;
+      top: -80px; right: -80px;
+      width: 320px; height: 320px;
+      background: radial-gradient(circle, rgba(124,58,237,0.35) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .cover::after {
+      content: '';
+      position: absolute;
+      bottom: -60px; left: 40px;
+      width: 200px; height: 200px;
+      background: radial-gradient(circle, rgba(124,58,237,0.15) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .cover-content { position: relative; z-index: 1; }
+    .cover-tag {
+      display: inline-block;
+      background: rgba(124,58,237,0.2);
+      border: 1px solid rgba(124,58,237,0.4);
+      color: var(--purple-light);
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 100px;
+      margin-bottom: 24px;
+    }
+    .cover h1 { color: #fff; margin-bottom: 16px; }
+    .cover p { color: rgba(232,237,245,0.7); font-size: 1rem; max-width: 480px; }
+    .cover-meta {
+      margin-top: 36px;
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+    .cover-meta-item { display: flex; flex-direction: column; gap: 4px; }
+    .cover-meta-item .val { color: var(--text); font-weight: 600; font-size: 0.9rem; }
+    .cover-meta-item .key { color: var(--text-3); font-size: 0.75rem; }
+
+    /* ─── PAGE SECTIONS ─── */
+    .page {
+      background: var(--card);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 36px 40px;
+      margin-bottom: 24px;
+      position: relative;
+    }
+    .page-number {
+      position: absolute;
+      top: 20px; right: 24px;
+      font-size: 0.7rem;
+      color: var(--text-3);
+      font-family: 'Unbounded', sans-serif;
+    }
+    .page-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+    .page-icon {
+      width: 44px; height: 44px;
+      background: rgba(124,58,237,0.15);
+      border: 1px solid rgba(124,58,237,0.3);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .page-icon svg {
+      width: 20px; height: 20px;
+      stroke: #9D6FE8;
+      stroke-width: 1.75;
+      fill: none;
+    }
+    .page-header-text { display: flex; flex-direction: column; gap: 4px; }
+
+    /* ─── DIVIDER ─── */
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, rgba(124,58,237,0.3), transparent);
+      margin: 24px 0;
+    }
+
+    /* ─── THESIS BLOCK ─── */
+    .thesis {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .thesis-item {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+    }
+    .thesis-dot {
+      width: 6px; height: 6px;
+      background: var(--purple);
+      border-radius: 50%;
+      margin-top: 7px;
+      flex-shrink: 0;
+    }
+
+    /* ─── TOOLS GRID ─── */
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    .tool-card {
+      background: var(--bg-3);
+      border: 1px solid rgba(124,58,237,0.12);
+      border-radius: var(--radius-sm);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .tool-name { font-family: 'Unbounded', sans-serif; font-size: 0.85rem; font-weight: 700; color: var(--text); }
+    .tool-desc { font-size: 0.85rem; color: var(--text-2); line-height: 1.5; }
+
+    /* ─── CODE BLOCK ─── */
+    .code-block {
+      background: var(--bg);
+      border: 1px solid rgba(124,58,237,0.2);
+      border-radius: var(--radius-sm);
+      padding: 20px 24px;
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 0.82rem;
+      color: #A78BFA;
+      line-height: 1.8;
+    }
+    .code-block .comment { color: var(--text-3); }
+    .code-block .key { color: var(--purple-light); }
+    .code-block .val { color: #34D399; }
+
+    /* ─── TEMPLATE STEPS ─── */
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .step {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+    .step-num {
+      width: 28px; height: 28px;
+      background: rgba(124,58,237,0.2);
+      border: 1px solid rgba(124,58,237,0.4);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Unbounded', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--purple-light);
+      flex-shrink: 0;
+    }
+    .step-content { display: flex; flex-direction: column; gap: 4px; }
+    .step-title { font-weight: 600; color: var(--text); font-size: 0.95rem; }
+    .step-example { font-size: 0.82rem; color: var(--text-3); font-style: italic; }
+
+    /* ─── PLAN FLOW ─── */
+    .plan-flow {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+    .plan-step {
+      background: var(--bg-3);
+      border: 1px solid rgba(124,58,237,0.15);
+      border-radius: var(--radius-sm);
+      padding: 12px 18px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .plan-arrow {
+      color: var(--purple);
+      font-size: 1.1rem;
+      padding: 0 10px;
+    }
+
+    /* ─── HIGHLIGHT BOX ─── */
+    .highlight {
+      background: rgba(124,58,237,0.08);
+      border-left: 3px solid var(--purple);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      padding: 16px 20px;
+      margin-top: 16px;
+    }
+    .highlight p { color: var(--text); font-size: 0.9rem; }
+
+    /* ─── ACTION CARDS ─── */
+    .action-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    .action-card {
+      background: var(--bg-3);
+      border: 1px solid rgba(124,58,237,0.12);
+      border-radius: var(--radius-sm);
+      padding: 20px;
+    }
+    .action-num {
+      font-family: 'Unbounded', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: rgba(124,58,237,0.4);
+      line-height: 1;
+      margin-bottom: 10px;
+    }
+    .action-text { font-size: 0.88rem; color: var(--text-2); line-height: 1.55; }
+    .action-text strong { color: var(--text); }
+
+    /* ─── FOOTER ─── */
+    .footer {
+      margin-top: 48px;
+      padding-top: 32px;
+      border-top: 1px solid rgba(124,58,237,0.15);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .footer-brand { font-family: 'Unbounded', sans-serif; font-size: 0.85rem; font-weight: 700; color: var(--text-3); }
+    .footer-note { font-size: 0.8rem; color: var(--text-3); }
+
+    @media (max-width: 600px) {
+      body { padding: 24px 16px 60px; }
+      .cover { padding: 36px 24px; }
+      .page { padding: 28px 24px; }
+      .tools-grid { grid-template-columns: 1fr; }
+      .action-grid { grid-template-columns: 1fr; }
+      .plan-flow { gap: 8px; }
+      .plan-arrow { display: none; }
+    }
+
+    @media print {
+      body { background: #fff; color: #111; max-width: 100%; padding: 0; }
+      .page { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- COVER -->
+  <div class="cover">
+    <div class="cover-content">
+      <div class="cover-tag">Гайд для команды</div>
+      <h1>Вайбкодинг<br>с Claude</h1>
+      <p>Всё что нужно чтобы начать работать с Claude Code и создавать продукты без программирования</p>
+      <div class="cover-meta">
+        <div class="cover-meta-item">
+          <span class="val">NeuroKids</span>
+          <span class="key">Для кого</span>
+        </div>
+        <div class="cover-meta-item">
+          <span class="val">7 страниц</span>
+          <span class="key">Формат</span>
+        </div>
+        <div class="cover-meta-item">
+          <span class="val">2025</span>
+          <span class="key">Год</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 1: ЧТО ТАКОЕ ВАЙБКОДИНГ -->
+  <div class="page">
+    <div class="page-number">01</div>
+    <div class="page-header">
+      <div class="page-icon"><i data-lucide="lightbulb"></i></div>
+      <div class="page-header-text">
+        <span class="label">Основа</span>
+        <h2>Что такое вайбкодинг</h2>
+      </div>
+    </div>
+
+    <div class="highlight">
+      <p>Вайбкодинг — это когда ты описываешь идею словами, а ИИ строит её за тебя.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="thesis">
+      <div class="thesis-item">
+        <div class="thesis-dot"></div>
+        <p><strong>Не нужно учить программирование</strong> — нужно уметь доносить мысль чётко и конкретно</p>
+      </div>
+      <div class="thesis-item">
+        <div class="thesis-dot"></div>
+        <p><strong>Ты автор продукта, Claude — исполнитель</strong> — ты принимаешь решения, он реализует</p>
+      </div>
+      <div class="thesis-item">
+        <div class="thesis-dot"></div>
+        <p><strong>Инструменты будут меняться. Мышление — нет</strong> — главный навык это умение описывать задачу</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 2: ТРИ ИНСТРУМЕНТА -->
+  <div class="page">
+    <div class="page-number">02</div>
+    <div class="page-header">
+      <div class="page-icon"><i data-lucide="wrench"></i></div>
+      <div class="page-header-text">
+        <span class="label">Инструменты</span>
+        <h2>Три инструмента</h2>
+      </div>
+    </div>
+
+    <div class="tools-grid">
+      <div class="tool-card">
+        <div class="tool-name">Claude</div>
+        <div class="tool-desc">Думает, пишет код, действует. Главный агент — исполнитель всех задач</div>
+      </div>
+      <div class="tool-card">
+        <div class="tool-name">Cursor</div>
+        <div class="tool-desc">Рабочее пространство — видишь код и результат рядом с собой</div>
+      </div>
+      <div class="tool-card">
+        <div class="tool-name">Warp</div>
+        <div class="tool-desc">Терминал — запускаешь команды, деплой и управление проектом</div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <p style="font-size: 0.85rem;">Подписка Claude: от <strong>$20/мес</strong> (старт) → рекомендуем <strong>$100/мес</strong> для полноценной работы</p>
+  </div>
+
+  <!-- PAGE 3: CLAUDE.MD -->
+  <div class="page">
+    <div class="page-number">03</div>
+    <div class="page-header">
+      <div class="page-icon"><i data-lucide="brain"></i></div>
+      <div class="page-header-text">
+        <span class="label">Память проекта</span>
+        <h2>CLAUDE.md</h2>
+      </div>
+    </div>
+
+    <p style="margin-bottom: 20px;">Файл в корне проекта. Claude читает его каждый раз прежде чем что-то делать. Без него — ИИ придумывает за тебя.</p>
+
+    <div class="code-block">
+      <span class="comment"># Что это за продукт</span><br>
+      <span class="key">Продукт:</span> <span class="val">Школа ИИ для детей и взрослых в Алматы</span><br><br>
+      <span class="comment"># Для кого</span><br>
+      <span class="key">Аудитория:</span> <span class="val">Дети 7–17 лет, покупают мамы 30–45 лет</span><br>
+      <span class="key">Страх аудитории:</span> <span class="val">Ребёнок отстанет от технологий</span><br><br>
+      <span class="comment"># Тон и стиль</span><br>
+      <span class="key">Тон:</span> <span class="val">Поддерживающий, без технических терминов</span><br><br>
+      <span class="comment"># Референсы</span><br>
+      <span class="key">@business-context.md</span> <span class="comment">— полный бизнес-контекст</span><br>
+      <span class="key">@brand-guide.md</span> <span class="comment">— стиль и визуал</span>
+    </div>
+
+    <div class="highlight">
+      <p>Чем подробнее CLAUDE.md — тем точнее каждое решение Claude: текст, дизайн, структура страницы.</p>
+    </div>
+  </div>
+
+  <!-- PAGE 4: ШАБЛОН ПРОМПТА -->
+  <div class="page">
+    <div class="page-number">04</div>
+    <div class="page-header">
+      <div class="page-icon"><i data-lucide="pen-line"></i></div>
+      <div class="page-header-text">
+        <span class="label">Шаблон</span>
+        <h2>Как описать любую задачу</h2>
+      </div>
+    </div>
+
+    <p style="margin-bottom: 24px;">Ответь на эти 5 вопросов — и у тебя готовый промпт для Claude.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-content">
+          <div class="step-title">Что хочу создать или решить?</div>
+          <div class="step-example">Например: "Хочу сделать пост для Instagram"</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-content">
+          <div class="step-title">Для кого это?</div>
+          <div class="step-example">Например: "Для мам, у которых дети 7–12 лет"</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-content">
+          <div class="step-title">Какой результат хочу получить?</div>
+          <div class="step-example">Например: "Мама должна захотеть записать ребёнка на пробный урок"</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-content">
+          <div class="step-title">Что уже есть?</div>
+          <div class="step-example">Например: "Вот наш сайт, вот описание курса"</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">5</div>
+        <div class="step-content">
+          <div class="step-title">Что нельзя / важно учесть?</div>
+          <div class="step-example">Например: "Без технических терминов, тон тёплый и поддерживающий"</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 5: PLAN MODE -->
+  <div class="page">
+    <div class="page-number">05</div>
+    <div class="page-header">
+      <div class="page-icon"><i data-lucide="map"></i></div>
+      <div class="page-header-text">
+        <span class="label">Процесс</span>
+        <h2>Сначала план — потом исполнение</h2>
+      </div>
+    </div>
+
+    <div class="highlight">
+      <p>Никогда не давай Claude просто делать. Сначала — план.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="plan-flow">
+      <div class="plan-step">Напиши задачу</div>
+      <div class="plan-arrow">→</div>
+      <div class="plan-step">Попроси план</div>
+      <div class="plan-arrow">→</div>
+      <div class="plan-step">Прочитай и одобри</div>
+      <div class="plan-arrow">→</div>
+      <div class="plan-step">Запускай</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <p style="font-size: 0.88rem;">В Plan Mode Claude показывает что именно собирается сделать — <strong>до того как трогает файлы.</strong> Ты решаешь продолжать или нет. Это защищает от неожиданных изменений.</p>
+  </div>
+
+  <!-- PAGE 6: ИТЕРАЦИОННЫЙ ПРИНЦИП -->
+  <div class="page">
+    <div class="page-number">06</div>
+    <div class="page-header">
+      <div class="page-icon"><i data-lucide="repeat-2"></i></div>
+      <div class="page-header-text">
+        <span class="label">Мышление</span>
+        <h2>Итерационный принцип</h2>
+      </div>
+    </div>
+
+    <div class="highlight">
+      <p>Одна задача → один промпт → смотришь → следующий шаг</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="thesis">
+      <div class="thesis-item">
+        <div class="thesis-dot"></div>
+        <p><strong>Не пиши гигантский промпт на всё сразу</strong> — разбивай на маленькие задачи</p>
+      </div>
+      <div class="thesis-item">
+        <div class="thesis-dot"></div>
+        <p><strong>Маленький результат лучше идеального плана</strong> — сделай что-то работающее, потом улучшай</p>
+      </div>
+      <div class="thesis-item">
+        <div class="thesis-dot"></div>
+        <p><strong>Ошибка = следующий промпт</strong> — не паникуй, просто скажи Claude что не так</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 7: НАЧНИ СЕЙЧАС -->
+  <div class="page">
+    <div class="page-number">07</div>
+    <div class="page-header">
+      <div class="page-icon"><i data-lucide="rocket"></i></div>
+      <div class="page-header-text">
+        <span class="label">Действие</span>
+        <h2>Начни прямо сейчас</h2>
+      </div>
+    </div>
+
+    <div class="action-grid">
+      <div class="action-card">
+        <div class="action-num">01</div>
+        <div class="action-text"><strong>Выпиши 3–4 проблемы</strong> из своей работы — у каждого свои</div>
+      </div>
+      <div class="action-card">
+        <div class="action-num">02</div>
+        <div class="action-text"><strong>Возьми одну задачу</strong> и заполни шаблон из страницы 04</div>
+      </div>
+      <div class="action-card">
+        <div class="action-num">03</div>
+        <div class="action-text"><strong>Открой Claude</strong> — вставь промпт, получи план, обсуди</div>
+      </div>
+      <div class="action-card">
+        <div class="action-num">04</div>
+        <div class="action-text"><strong>Доведи одно решение до конца</strong> — первый результат важнее идеала</div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="highlight">
+      <p>Инструменты будут меняться. Мышление — нет. Умение чётко думать, формулировать и проверять результат — это навык на всю жизнь.</p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-brand">NeuroKids × Вайбкодинг</div>
+    <div class="footer-note">neurokids.kz</div>
+  </div>
+
+  <script>lucide.createIcons();</script>
+</body>
+</html>
