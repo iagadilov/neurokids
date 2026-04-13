@@ -1175,6 +1175,15 @@
     }
     .contact-icon { color: var(--purple-light); }
 
+    /* ─── PRICING GRID ─── */
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
     /* ─── MOBILE PROJECT STRIP ─── */
     .hero-proj-strip {
       display: none; /* desktop: hidden */
@@ -1270,86 +1279,87 @@
 
     /* ─── TABLET (≤1024px) ─── */
     @media (max-width: 1024px) {
-      .hero-grid { grid-template-columns: 1fr; gap: 32px; }
-      .hero-visual { order: -1; }
-      .hero-robot-wrap { max-width: 400px; margin: 0 auto; min-height: 380px; }
-      /* Floating cards: тянемся внутрь при планшете */
-      .hero-card-1 { top: 6px;    left: 0; width: 170px; }
-      .hero-card-2 { bottom: 6px; right: 0; width: 170px; }
-      .hero-card-3 { top: 6px;    right: 0; width: 170px; }
-      .hero-card-4 { bottom: 6px; left: 0; width: 170px; }
-      .hero-card-thumb-wrap { height: 96px; }
-      .for-whom-grid { grid-template-columns: 1fr 1fr; gap: 16px; }
-      .courses-grid { grid-template-columns: 1fr; }
-      .diploma-inner { grid-template-columns: 1fr; gap: 40px; }
-      .cta-inner { grid-template-columns: 1fr; gap: 48px; }
-      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .hero-grid { grid-template-columns: 1fr !important; gap: 32px !important; }
+      .hero-visual { order: -1 !important; }
+      .hero-robot-wrap { max-width: 400px !important; margin: 0 auto !important; min-height: 360px !important; }
+      .hero-card-1 { top: 6px; left: 0; width: 165px; }
+      .hero-card-2 { bottom: 6px; right: 0; width: 165px; }
+      .hero-card-3 { top: 6px; right: 0; width: 165px; }
+      .hero-card-4 { bottom: 6px; left: 0; width: 165px; }
+      .hero-card-thumb-wrap { height: 92px; }
+      .for-whom-grid { grid-template-columns: 1fr 1fr !important; gap: 16px; }
+      .courses-grid { grid-template-columns: 1fr !important; }
+      .diploma-inner { grid-template-columns: 1fr !important; gap: 40px; }
+      .cta-inner { grid-template-columns: 1fr !important; gap: 48px; }
+      .footer-grid { grid-template-columns: 1fr 1fr !important; }
+      .pricing-grid { grid-template-columns: 1fr !important; max-width: 480px !important; }
     }
 
     /* ─── MOBILE (≤768px) ─── */
     @media (max-width: 768px) {
-      section { padding: 64px 0; }
-      .container { padding: 0 16px; }
+      section { padding: 56px 0 !important; }
+      .container { padding: 0 16px !important; }
 
       /* Nav */
-      .nav-links { display: none; }
-      .nav-cta { display: none; }
-      .nav-hamburger { display: flex; }
+      .nav-links { display: none !important; }
+      .nav-cta { display: none !important; }
+      .nav-hamburger { display: flex !important; }
 
       /* Hero */
-      .hero-robot-wrap { max-width: 320px; min-height: 280px; }
-      /* Все floating cards скрыты на мобилке — показываем проекты strip'ом */
+      .hero-grid { grid-template-columns: 1fr !important; }
+      .hero-visual { order: -1 !important; }
+      .hero-robot-wrap { max-width: 300px !important; min-height: 260px !important; margin: 0 auto !important; }
       .hero-floating-card { display: none !important; }
-      /* Mobile project strip */
       .hero-proj-strip {
-        display: flex;
+        display: flex !important;
         gap: 10px;
         overflow-x: auto;
-        padding: 14px 0 6px;
+        padding: 12px 0 4px;
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
         width: 100%;
       }
       .hero-proj-strip::-webkit-scrollbar { display: none; }
-
-      .hero-trending { font-size: 0.65rem; padding: 6px 12px; }
-      .hero-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-      .hero-stat-divider { display: none; }
-      .hero-stat-num { font-size: 1.6rem; }
+      .hero-trending { font-size: 0.65rem !important; padding: 6px 12px !important; }
+      .hero-stats { display: grid !important; grid-template-columns: 1fr 1fr !important; gap: 14px !important; }
+      .hero-stat-divider { display: none !important; }
+      .hero-stat-num { font-size: 1.5rem !important; }
+      .hero-btns { flex-direction: column !important; }
+      .hero-btns .btn { width: 100% !important; justify-content: center !important; }
 
       /* Sections */
-      .works-grid { grid-template-columns: 1fr 1fr; }
-      .for-whom-grid { grid-template-columns: 1fr; }
-      .why-grid { grid-template-columns: 1fr; }
-      .how-steps { grid-template-columns: 1fr; }
-      .how-steps::before { display: none; }
-      .reviews-grid { grid-template-columns: 1fr; }
-      .footer-grid { grid-template-columns: 1fr; }
-      .trust-bar-inner { flex-wrap: wrap; gap: 16px; justify-content: flex-start; }
-      .trust-divider { display: none; }
-      .courses-grid { grid-template-columns: 1fr; }
-
-      /* Teachers */
+      .for-whom-grid { grid-template-columns: 1fr !important; }
+      .courses-grid { grid-template-columns: 1fr !important; }
+      .works-grid { grid-template-columns: 1fr 1fr !important; }
+      .why-grid { grid-template-columns: 1fr !important; }
+      .how-steps { grid-template-columns: 1fr !important; }
+      .how-steps::before { display: none !important; }
+      .reviews-grid { grid-template-columns: 1fr !important; }
+      .diploma-inner { grid-template-columns: 1fr !important; }
+      .cta-inner { grid-template-columns: 1fr !important; }
+      .footer-grid { grid-template-columns: 1fr !important; }
+      .pricing-grid { grid-template-columns: 1fr !important; max-width: 100% !important; }
+      .trust-bar-inner { flex-wrap: wrap !important; gap: 12px !important; justify-content: flex-start !important; }
+      .trust-divider { display: none !important; }
       .teachers-track { padding-bottom: 12px; }
-      .teacher-card { width: 180px; }
+      .teacher-card { width: 180px !important; }
+      .course-card { padding: 28px 20px !important; }
+      .cta-form-wrap { padding: 28px 20px !important; }
+      .t-h2 { font-size: clamp(1.3rem, 5vw, 1.8rem) !important; }
     }
 
     /* ─── SMALL MOBILE (≤480px) ─── */
     @media (max-width: 480px) {
-      section { padding: 56px 0; }
-      .works-grid { grid-template-columns: 1fr; }
-      .hero-btns { flex-direction: column; align-items: stretch; }
-      .hero-btns .btn { justify-content: center; }
-      .hero-stats { gap: 12px; }
-      .course-card { padding: 28px 20px; }
-      .cta-form-wrap { padding: 28px 20px; }
-      .hero-robot-wrap { max-width: 260px; min-height: 240px; }
-      .hero-proj-card { width: 122px; }
-      .hero-proj-thumb { height: 69px; }
-      .t-hero { font-size: clamp(1.7rem, 7vw, 2.2rem); }
-      .diploma-text h2 { font-size: 1.4rem; }
-      .footer-grid { gap: 32px; }
+      section { padding: 48px 0 !important; }
+      .works-grid { grid-template-columns: 1fr !important; }
+      .hero-robot-wrap { max-width: 260px !important; min-height: 230px !important; }
+      .hero-proj-card { width: 120px !important; }
+      .hero-proj-thumb { height: 68px !important; }
+      .t-hero { font-size: clamp(1.65rem, 6.5vw, 2.1rem) !important; }
+      .hero-stats { gap: 10px !important; }
+      .pricing-grid { gap: 16px !important; }
+      .footer-grid { gap: 28px !important; }
     }
 
     /* ─── HIGHLIGHT ─── */
@@ -1868,7 +1878,7 @@
         <span class="t-label">Стоимость</span>
         <h2 class="t-h2">Прозрачные условия</h2>
       </div>
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; max-width: 860px; margin: 0 auto;">
+      <div class="pricing-grid">
         <!-- Нейростарт -->
         <div class="reveal reveal-delay-1" style="background: var(--card); border: 1px solid rgba(124,58,237,0.15); border-radius: var(--radius-lg); padding: 36px 32px; display: flex; flex-direction: column; gap: 16px;">
           <div>
