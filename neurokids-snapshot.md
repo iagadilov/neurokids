@@ -1,0 +1,425 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "NeuroKids Logo" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "NeuroKids Logo" [ref=e5]
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "О курсе" [ref=e8] [cursor=pointer]:
+            - /url: "#rec1364144233"
+        - listitem [ref=e9]:
+          - link "Работы учеников" [ref=e10] [cursor=pointer]:
+            - /url: "#rec1393341273"
+        - listitem [ref=e11]:
+          - link "Отзывы" [ref=e12] [cursor=pointer]:
+            - /url: "#rec1393344103"
+        - listitem [ref=e13]:
+          - link "Бесплатный урок" [ref=e14] [cursor=pointer]:
+            - /url: freelesson.html
+        - listitem [ref=e15]:
+          - link "NeuroCreator" [ref=e16] [cursor=pointer]:
+            - /url: neurocreator.html
+      - generic [ref=e17]:
+        - button "RU ▼" [ref=e19] [cursor=pointer]
+        - link "WhatsApp" [ref=e20] [cursor=pointer]:
+          - /url: https://wa.me/77027501407
+        - link "🧠 Платформа" [ref=e21] [cursor=pointer]:
+          - /url: /platform
+  - generic [ref=e22]:
+    - generic [ref=e25]:
+      - generic [ref=e32]:
+        - strong [ref=e33]: Курсы нового поколения.
+        - text: Реальные кейсы, персональные наставники и заметный прогресс у каждого
+      - generic [ref=e39]: — формат на выбор, удобно для семьи и взрослых
+      - generic [ref=e42]: Онлайн или офлайн
+      - generic [ref=e48]: — поддержка до результата
+      - generic [ref=e51]: Персональный наставник каждому ученику
+      - generic [ref=e57]: — уже проверено результатами
+      - generic [ref=e60]: 300+ выпускников
+      - generic [ref=e62]: NeuroKids
+      - generic [ref=e65]: От первых шагов в ИИ до реальных проектов и новых возможностей
+      - generic [ref=e74]: программа
+      - generic [ref=e79]: подходит без опыта
+    - generic [ref=e85]:
+      - generic [ref=e94]: Мы создали программы так, чтобы каждый мог освоить нейросети с нуля и использовать их для учёбы, работы и собственных проектов.
+      - generic [ref=e97]: Для кого подойдут эти курсы?
+      - generic [ref=e103]:
+        - strong [ref=e104]: Бесплатный пробный урок
+        - text: для новых учеников
+      - generic [ref=e119]: Тем, кто просто хочет идти в ногу со временем
+      - generic [ref=e128]:
+        - strong [ref=e129]: Создавай уникальные дизайны, музыку, видео и фото с помощью ИИ.
+        - text: Делай стильные визуалы, концепты и проекты, которые выделяются и приносят удовольствие от творчества.
+      - generic [ref=e134]: Творческим специалистам и создателям контента
+      - generic [ref=e141]:
+        - strong [ref=e142]: "Используй нейросети для продвижения и продаж:"
+        - text: создавай контент-планы, тексты, посты и рекламные креативы в пару кликов. Автоматизируй рутину, экономь время и увеличивай прибыль.
+      - generic [ref=e147]: Маркетологам, SMM-специалистам и предпринимателям
+      - generic [ref=e154]:
+        - strong [ref=e155]: Экономь время на учёбе
+        - text: — делай отчёты, курсовые, дизайн и презентации в разы быстрее. Получи реальные навыки, которые пригодятся на стажировках и в работе.
+      - generic [ref=e160]: Студентам
+      - generic [ref=e167]:
+        - strong [ref=e168]: Создавай проекты, которые удивят на уроках и конкурсах.
+        - text: Научись использовать нейросети для презентаций, изображений, видео и идей. Это первые шаги в будущее IT и креатива.
+      - generic [ref=e173]: Школьникам и подросткам
+    - generic [ref=e178]:
+      - list [ref=e203]:
+        - listitem [ref=e204]:
+          - text: Новые инструменты для
+          - strong [ref=e205]: работы и бизнеса
+        - listitem [ref=e206]:
+          - text: Автоматизация задач и
+          - strong [ref=e207]: рост дохода
+        - listitem [ref=e208]:
+          - strong [ref=e209]: Первые заказы и проекты
+          - text: в портфолио
+      - strong [ref=e212]: 80% профессий будут связаны с ИИ уже в ближайшие 5–10 лет.
+      - strong [ref=e218]: "04."
+      - strong [ref=e222]: Те, кто учат ИИ сегодня, завтра будут управлять теми, кто его не знает.
+      - strong [ref=e226]: "03."
+      - strong [ref=e230]: ИИ экономит десятки часов в неделю — убирает рутину, помогает в учёбе и бизнесе.
+      - strong [ref=e234]: "02."
+      - strong [ref=e238]: ИИ уже сегодня используют Google, Tesla, Netflix, Microsoft.
+      - strong [ref=e242]: "01."
+      - generic [ref=e244]:
+        - strong [ref=e245]: 80% профессий будут связаны
+        - strong [ref=e246]: с ИИ уже
+        - strong [ref=e247]: в ближайшие
+        - strong [ref=e248]: 5–10 лет.
+      - strong [ref=e252]: 80% профессий будут связаны с ИИ уже в ближайшие 5–10 лет.
+      - generic [ref=e255]: Освоить искусственный интеллект нужно каждому — и школьнику, и взрослому
+      - generic [ref=e258]: ИИ — это не тренд, а новый базовый навык
+      - generic [ref=e260]: Почему ИИ важен?
+      - generic [ref=e262]: Взрослых и студентов (от 18 лет)
+      - generic [ref=e268]:
+        - strong [ref=e269]: Бесплатный пробный урок
+        - text: для новых учеников
+      - generic [ref=e275]: подробнее
+      - generic [ref=e285]: Детей и подростков (7–17 лет)
+    - generic [ref=e301]:
+      - list [ref=e312]:
+        - listitem [ref=e313]:
+          - strong [ref=e314]: "30 занятий:"
+          - text: от основ ИИ до контента, маркетинга и личного бренда
+        - listitem [ref=e315]:
+          - text: создаёте реальные проекты и собираете
+          - strong [ref=e316]: портфолио
+        - listitem [ref=e317]:
+          - text: осваиваете навыки монетизации и получаете
+          - strong [ref=e318]: первые заказы
+        - listitem [ref=e319]:
+          - strong [ref=e320]: поддержка наставника
+          - text: до результата
+        - listitem [ref=e321]:
+          - strong [ref=e322]: Онлайн и офлайн
+          - text: (Алматы)
+      - generic [ref=e324]:
+        - text: с нуля до проектов
+        - text: и первых заказов.
+      - generic [ref=e327]: Нейрокреатор
+      - link "узнать о курсе" [ref=e330] [cursor=pointer]:
+        - /url: https://neurokids.kz/neurocreator
+        - generic [ref=e332]: узнать о курсе
+    - generic [ref=e338]:
+      - generic [ref=e346]: Как проходит обучение?
+      - generic [ref=e352]:
+        - strong [ref=e353]: Бесплатный пробный урок
+        - text: для новых учеников
+      - strong [ref=e368]: Практика и проекты
+      - strong [ref=e373]: "04."
+      - generic [ref=e375]:
+        - strong [ref=e376]: Поддержка
+        - text: наставников
+      - strong [ref=e381]: "02."
+      - generic [ref=e383]:
+        - strong [ref=e384]: Живые уроки +
+        - text: записи
+      - strong [ref=e389]: "05."
+      - strong [ref=e392]: Итоговый проект и диплом
+      - strong [ref=e397]: "01."
+      - generic [ref=e399]:
+        - strong [ref=e400]: Онлайн
+        - text: или
+        - strong [ref=e401]: офлайн
+        - text: формат
+    - text: \n
+    - generic [ref=e433]:
+      - generic [ref=e436]: Преподаватели NeuroKids
+      - generic [ref=e438]:
+        - generic [ref=e439]:
+          - group "1 / 7" [ref=e440]:
+            - generic [ref=e441]:
+              - img "Алия Байгужаева" [ref=e442]
+              - generic [ref=e443]:
+                - generic [ref=e444]: AI и НЕЙРОСЕТИ
+                - generic [ref=e445]: Алия Байгужаева
+                - generic [ref=e446]: Имеет междисциплинарное образование в области финансов и психологии. Специализируется на обучении современным AI-инструментам.
+          - group "2 / 7" [ref=e447]:
+            - generic [ref=e448]:
+              - img "Моисеев Денис" [ref=e449]
+              - generic [ref=e450]:
+                - generic [ref=e451]: AI-эксперт
+                - generic [ref=e452]: Моисеев Денис
+                - generic [ref=e453]: Основатель AI-проекта Inomad. Имеет практический опыт внедрения AI-решений в более чем 20 компаниях.
+          - group "3 / 7" [ref=e454]:
+            - generic [ref=e455]:
+              - img "Байдилданов Альмансур" [ref=e456]
+              - generic [ref=e457]:
+                - generic [ref=e458]: AI и аналитика
+                - generic [ref=e459]: Байдилданов Альмансур
+                - generic [ref=e460]: Выпускник КБТУ. Специализируется на развитии математического и логического мышления.
+          - group "4 / 7" [ref=e461]:
+            - generic [ref=e462]:
+              - img "Ермекбаев Абылай" [ref=e463]
+              - generic [ref=e464]:
+                - generic [ref=e465]: AI-разработчик
+                - generic [ref=e466]: Ермекбаев Абылай
+                - generic [ref=e467]: Специалист по внедрению AI-решений и автоматизации бизнес-процессов.
+          - group "5 / 7" [ref=e468]:
+            - generic [ref=e469]:
+              - img "Шайкемелова Алина" [ref=e470]
+              - generic [ref=e471]:
+                - generic [ref=e472]: AI-креатив
+                - generic [ref=e473]: Шайкемелова Алина
+                - generic [ref=e474]: Художник и специалист по созданию визуального контента с использованием нейросетей.
+          - group "6 / 7" [ref=e475]:
+            - generic [ref=e476]:
+              - img "Климова Екатерина" [ref=e477]
+              - generic [ref=e478]:
+                - generic [ref=e479]: Цифровые технологии
+                - generic [ref=e480]: Климова Екатерина
+                - generic [ref=e481]: Магистр педагогических наук. Специализируется на обучении современным цифровым технологиям.
+          - group "7 / 7" [ref=e482]:
+            - generic [ref=e483]:
+              - img "Ибрагимова Айгерим" [ref=e484]
+              - generic [ref=e485]:
+                - generic [ref=e486]: Нейросети и цифровые компетенции
+                - generic [ref=e487]: Ибрагимова Айгерим
+                - generic [ref=e488]: Специалист с международным опытом. Обучалась в Китае. Владеет тремя языками.
+        - generic [ref=e489]:
+          - button "Go to slide 1" [ref=e490] [cursor=pointer]
+          - button "Go to slide 2" [ref=e491] [cursor=pointer]
+          - button "Go to slide 3" [ref=e492] [cursor=pointer]
+          - button "Go to slide 4" [ref=e493] [cursor=pointer]
+          - button "Go to slide 5" [ref=e494] [cursor=pointer]
+          - button "Go to slide 6" [ref=e495] [cursor=pointer]
+          - button "Go to slide 7" [ref=e496] [cursor=pointer]
+        - button "Previous slide" [ref=e497] [cursor=pointer]: prev
+        - button "Next slide" [ref=e498] [cursor=pointer]: next
+    - generic [ref=e501]:
+      - generic [ref=e507]: пробный урок
+      - generic [ref=e509]: Бесплатный
+      - generic [ref=e515]:
+        - strong [ref=e516]: Бесплатный пробный урок
+        - text: для новых учеников
+      - generic [ref=e524]: Познакомься с наставником, узнай, как работает искусственный интеллект, и создай свой первый мини-проект уже на пробном занятии.
+    - generic [ref=e539]:
+      - strong [ref=e542]: Успейте записаться на бесплатный пробный урок
+      - generic [ref=e543]:
+        - generic [ref=e544]:
+          - text: "00"
+          - generic [ref=e545]: Hours
+        - generic [ref=e546]:
+          - text: "38"
+          - generic [ref=e547]: Minutes
+        - generic [ref=e548]:
+          - text: "03"
+          - generic [ref=e549]: Seconds
+    - generic [ref=e558]: Нас выбирают ученики и их родители
+    - generic [ref=e561]:
+      - iframe [ref=e575]:
+        
+      - iframe [ref=e581]:
+        
+      - iframe [ref=e587]:
+        
+      - iframe [ref=e591]:
+        
+      - iframe [ref=e595]:
+        
+      - iframe [ref=e599]:
+        
+      - iframe [ref=e603]:
+        
+      - iframe [ref=e607]:
+        
+      - iframe [ref=e617]:
+        
+    - generic [ref=e620]:
+      - generic [ref=e626]: работы учеников
+      - generic [ref=e632]:
+        - strong [ref=e633]: Бесплатный пробный урок
+        - text: для новых учеников
+    - generic [ref=e644]:
+      - generic [ref=e648]:
+        - text: Жанель, 8 лет
+        - strong [ref=e649]: ИИ Аватар. Изображение ожило за 1 минуту
+      - iframe [ref=e653]:
+        
+      - iframe [ref=e657]:
+        
+      - generic [ref=e659]:
+        - text: Алина,10 лет
+        - strong [ref=e660]: Трендовая анимация для TikTok и Instagram
+      - img [ref=e664]
+      - img [ref=e666]
+      - img [ref=e668]
+      - img [ref=e670]
+      - iframe [ref=e674]:
+        
+      - generic [ref=e676]:
+        - text: Алиса,14 лет
+        - strong [ref=e677]: Магия анимации
+      - generic [ref=e679]:
+        - text: Ясмин, 10 лет
+        - strong [ref=e680]: Игра «Побег Панд» без программирования
+      - iframe [ref=e684]:
+        
+      - img [ref=e686]
+      - generic [ref=e688]:
+        - text: Максим, 11 лет.
+        - strong [ref=e689]: Сайт без кода.
+        - strong [ref=e690]: Умный помощник в садоводстве 24/7
+        - text: https://gerdaaigarden.tilda.ws/
+      - img [ref=e692]
+      - img [ref=e696]
+      - img [ref=e698]
+      - generic [ref=e702]:
+        - text: Артем, 12 лет
+        - strong [ref=e703]: Сайт «Мир Марио» с помощью ИИ
+        - link "http://prjtyx444.tilda.ws" [ref=e704] [cursor=pointer]:
+          - /url: http://prjtyx444.tilda.ws/
+      - generic [ref=e706]:
+        - text: Руслан, 13 лет .
+        - strong [ref=e707]: Чат-бот для WhatsApp «Дневник+»
+        - text: Хранение домашнего задания в телефоне
+      - img [ref=e709]
+      - img [ref=e711]
+    - generic [ref=e714]:
+      - img "Diploma Preview" [ref=e716]
+      - generic [ref=e717]:
+        - heading "Международный диплом" [level=2] [ref=e718]
+        - generic [ref=e719]:
+          - paragraph [ref=e720]: После завершения курса ученик получает именной диплом NeuroKids, подтверждающий освоение программы NeuroCreator — AI Content Creation
+          - paragraph [ref=e721]: Документ сопровождается приложением с перечнем модулей курса и количеством академических часов обучения
+          - paragraph [ref=e722]:
+            - generic [ref=e723]: ✓
+            - text: Получает каждый ученик после завершения программы
+        - link "Просмотреть диплом →" [ref=e725] [cursor=pointer]:
+          - /url: https://drive.google.com/file/d/1J3rzioHjtjsShgA8X0XXChSug0PI5qTN/view?usp=sharing
+    - generic [ref=e728]:
+      - list [ref=e743]:
+        - listitem [ref=e744]:
+          - text: Новые инструменты для
+          - strong [ref=e745]: работы и бизнеса
+        - listitem [ref=e746]:
+          - text: Автоматизация задач и
+          - strong [ref=e747]: рост дохода
+        - listitem [ref=e748]:
+          - strong [ref=e749]: Первые заказы и проекты
+          - text: в портфолио
+      - strong [ref=e752]: 80% профессий будут связаны с ИИ уже в ближайшие 5–10 лет.
+      - generic [ref=e756]: Освойте его вместе с ребёнком или для своей карьеры.
+      - generic [ref=e758]: ИИ — это новый язык будущего.
+      - generic [ref=e760]: Взрослых и студентов (от 18 лет)
+      - generic [ref=e766]:
+        - strong [ref=e767]: Бесплатный пробный урок
+        - text: для новых учеников
+      - generic [ref=e773]: подробнее
+      - generic [ref=e781]: курс для продвинутых
+      - generic [ref=e785]: подходит без опыта
+      - generic [ref=e791]: Детей и подростков (7–17 лет)
+    - generic [ref=e802]:
+      - link "+7 (702) 750 14 07" [ref=e813] [cursor=pointer]:
+        - /url: tel:+77027501407
+      - link "Договор оферты" [ref=e816] [cursor=pointer]:
+        - /url: https://docs.google.com/document/d/1Xp0iraTluyuwJfcHMXs8EVit_ulsTRUuT6stLW9DbsM/edit?usp=drivesdk
+      - link "Политика конфиденциальности" [ref=e819] [cursor=pointer]:
+        - /url: https://docs.google.com/document/d/17oy3HH61Z6ovafHzmbtyrxdfxqzzHqynx6YCCGimZq8/edit?usp=drivesdk
+      - generic [ref=e821]: Юридическая информация
+      - generic [ref=e823]: О курсе
+      - generic [ref=e825]: Цифровое творчество
+      - generic [ref=e827]: Разработка игр
+      - generic [ref=e829]: Тарифы курса
+      - link "Для кого курс?" [ref=e832] [cursor=pointer]:
+        - /url: index.html#rec1364144233
+      - link "Работы учеников" [ref=e835] [cursor=pointer]:
+        - /url: index.html#rec1393341273
+      - link "Отзывы" [ref=e838] [cursor=pointer]:
+        - /url: index.html#rec1393344103
+      - link "Алишера Навои, 280" [ref=e841] [cursor=pointer]:
+        - /url: https://2gis.kz/almaty/geo/9430047375024984/76.898507,43.213910
+      - generic [ref=e843]: neurokids
+      - img [ref=e845] [cursor=pointer]
+      - img [ref=e847] [cursor=pointer]
+      - img [ref=e849] [cursor=pointer]
+      - img [ref=e851] [cursor=pointer]
+  - contentinfo [ref=e852]:
+    - generic [ref=e853]:
+      - generic [ref=e854]:
+        - heading "NeuroKids" [level=3] [ref=e855]
+        - paragraph [ref=e856]: Центр обучения искусственному интеллекту для детей и подростков. Создаем будущее вместе с технологиями.
+        - generic [ref=e857]:
+          - link "📷" [ref=e858] [cursor=pointer]:
+            - /url: https://www.instagram.com/neurokids__kz
+          - link "🎵" [ref=e859] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@neurokids.kz
+          - link "✈️" [ref=e860] [cursor=pointer]:
+            - /url: https://surl.lu/xxsuxs
+          - link "📺" [ref=e861] [cursor=pointer]:
+            - /url: http://www.youtube.com/@Neuro_kidskz
+      - generic [ref=e862]:
+        - heading "Обучение" [level=3] [ref=e863]
+        - list [ref=e864]:
+          - listitem [ref=e865]:
+            - link "Нейрокреатор" [ref=e866] [cursor=pointer]:
+              - /url: neurocreator.html
+          - listitem [ref=e867]:
+            - link "Бесплатный урок" [ref=e868] [cursor=pointer]:
+              - /url: freelesson.html
+          - listitem [ref=e869]:
+            - link "AI Платформа" [ref=e870] [cursor=pointer]:
+              - /url: /platform
+      - generic [ref=e871]:
+        - heading "О нас" [level=3] [ref=e872]
+        - list [ref=e873]:
+          - listitem [ref=e874]:
+            - link "О курсе" [ref=e875] [cursor=pointer]:
+              - /url: "#rec1364144233"
+          - listitem [ref=e876]:
+            - link "Работы учеников" [ref=e877] [cursor=pointer]:
+              - /url: "#rec1393341273"
+          - listitem [ref=e878]:
+            - link "Отзывы" [ref=e879] [cursor=pointer]:
+              - /url: "#rec1393344103"
+          - listitem [ref=e880]:
+            - link "Адрес" [ref=e881] [cursor=pointer]:
+              - /url: https://2gis.kz/almaty/geo/9430047375024984/76.898507,43.213910
+      - generic [ref=e882]:
+        - heading "Контакты" [level=3] [ref=e883]
+        - generic [ref=e884]:
+          - strong [ref=e885]: "Телефон:"
+          - link "+7 (702) 750 14 07" [ref=e886] [cursor=pointer]:
+            - /url: tel:+77027501407
+        - generic [ref=e887]:
+          - strong [ref=e888]: "Адрес:"
+          - text: Алишера Навои, 280
+        - generic [ref=e889]:
+          - strong [ref=e890]: "Email:"
+          - link "info@neurokids.kz" [ref=e891] [cursor=pointer]:
+            - /url: mailto:info@neurokids.kz
+      - generic [ref=e892]:
+        - heading "Документы" [level=3] [ref=e893]
+        - list [ref=e894]:
+          - listitem [ref=e895]:
+            - link "Договор оферты" [ref=e896] [cursor=pointer]:
+              - /url: https://docs.google.com/document/d/1Xp0iraTluyuwJfcHMXs8EVit_ulsTRUuT6stLW9DbsM/edit
+          - listitem [ref=e897]:
+            - link "Политика конфиденциальности" [ref=e898] [cursor=pointer]:
+              - /url: https://docs.google.com/document/d/17oy3HH61Z6ovafHzmbtyrxdfxqzzHqynx6YCCGimZq8/edit
+          - listitem [ref=e899]:
+            - link "Юридическая информация" [ref=e900] [cursor=pointer]:
+              - /url: "#"
+    - paragraph [ref=e902]: © 2024 NeuroKids. Все права защищены. Создано с ❤️ для будущего ИИ образования.

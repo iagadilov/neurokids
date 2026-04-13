@@ -1,0 +1,799 @@
+{
+  "images": [
+    {
+      "src": "https://www.neurokids.kz/attached-logo.png",
+      "alt": "NeuroKids Logo",
+      "naturalWidth": 1259
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild6531-3137-4734-a565-353736326563/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 1024
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild6561-3961-4931-b462-643966303965/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 1024
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild6262-3639-4461-a666-373836366565/___28.png",
+      "alt": "",
+      "naturalWidth": 1080
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild6435-3838-4838-b466-376133626231/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 1536
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6531-3137-4734-a565-353736326563/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6561-3961-4931-b462-643966303965/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild6265-3635-4732-b762-333537656234/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 1024
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6433-6666-4239-b664-616335656366/-/resize/20x/56.PNG",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild3466-3136-4261-b730-636565393038/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 1024
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6135-6266-4663-a635-383134616138/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild6563-6236-4563-a230-316431336239/ChatGPT_Image_10__20.png",
+      "alt": "",
+      "naturalWidth": 1024
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild3737-3535-4466-a637-386336643163/ChatGPT_Image_10__20.png",
+      "alt": "",
+      "naturalWidth": 1024
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild3963-3162-4836-b639-623138313334/ChatGPT_Image_10__20.png",
+      "alt": "",
+      "naturalWidth": 1024
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild3839-3166-4637-a539-383063636262/ChatGPT_Image_10__20.png",
+      "alt": "",
+      "naturalWidth": 1024
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild6463-3661-4339-b031-666662373638/ChatGPT_Image_10__20.png",
+      "alt": "",
+      "naturalWidth": 1024
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild3339-3533-4135-b638-336562653931/_____-_2025-10-03T12.png",
+      "alt": "",
+      "naturalWidth": 1680
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild3339-3533-4135-b638-336562653931/_____-_2025-10-03T12.png",
+      "alt": "",
+      "naturalWidth": 1680
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6435-3838-4838-b466-376133626231/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6531-3137-4734-a565-353736326563/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6561-3961-4931-b462-643966303965/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild6265-3635-4732-b762-333537656234/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 1024
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6433-6666-4239-b664-616335656366/-/resize/20x/56.PNG",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild3466-3136-4261-b730-636565393038/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6135-6266-4663-a635-383134616138/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6463-6233-4666-a264-623930663634/-/resize/20x/23132.PNG",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6466-6237-4337-a536-656537323961/-/resize/20x/ChatGPT_Image_3__202.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild3235-3231-4637-b131-343336343061/-/resize/20x/ChatGPT_Image_3__202.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild3763-3038-4737-a664-653034353061/-/resize/20x/ChatGPT_Image_3__202.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild3363-3431-4661-a261-346230363265/-/resize/20x/ChatGPT_Image_3__202.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild3437-6462-4066-b161-663965383436/-/resize/20x/ChatGPT_Image_6__202.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6531-3137-4734-a565-353736326563/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6561-3961-4931-b462-643966303965/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild6265-3635-4732-b762-333537656234/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 1024
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6433-6666-4239-b664-616335656366/-/resize/20x/56.PNG",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild3034-3232-4933-a236-613164366434/ChatGPT_Image_6__202.png",
+      "alt": "",
+      "naturalWidth": 1536
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild3531-3939-4636-a434-393831396234/-/resize/20x/ChatGPT_Image_6__202.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6231-3333-4634-b562-343731303538/-/resize/20x/_____1.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild3562-3234-4861-b737-376232303639/-/resize/20x/_____2.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6564-3465-4362-b735-303166393962/-/resize/20x/_____3.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild3538-3763-4134-a336-303033636562/-/resize/20x/_____4.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild3830-3239-4030-b063-363330636266/-/resize/20x/Mask_group.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://www.neurokids.kz/images/teachers/aliya_b.png",
+      "alt": "Алия Байгужаева",
+      "naturalWidth": 855
+    },
+    {
+      "src": "https://www.neurokids.kz/images/teachers/denis_m.png",
+      "alt": "Моисеев Денис",
+      "naturalWidth": 973
+    },
+    {
+      "src": "https://www.neurokids.kz/images/teachers/almansur_b.png",
+      "alt": "Байдилданов Альмансур",
+      "naturalWidth": 2292
+    },
+    {
+      "src": "https://www.neurokids.kz/images/teachers/abylay_e.png",
+      "alt": "Ермекбаев Абылай",
+      "naturalWidth": 3800
+    },
+    {
+      "src": "https://www.neurokids.kz/images/teachers/alina_s.png",
+      "alt": "Шайкемелова Алина",
+      "naturalWidth": 2594
+    },
+    {
+      "src": "https://www.neurokids.kz/images/teachers/ekaterina_k.png",
+      "alt": "Климова Екатерина",
+      "naturalWidth": 1140
+    },
+    {
+      "src": "https://www.neurokids.kz/images/teachers/ibragimova_aigerim.jpeg",
+      "alt": "Ибрагимова Айгерим",
+      "naturalWidth": 959
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6531-3137-4734-a565-353736326563/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6561-3961-4931-b462-643966303965/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild6265-3635-4732-b762-333537656234/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 1024
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6433-6666-4239-b664-616335656366/-/resize/20x/56.PNG",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6265-3635-4732-b762-333537656234/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild3933-6335-4462-a161-346238353733/435322.PNG",
+      "alt": "",
+      "naturalWidth": 436
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild3631-6566-4633-b662-323134306639/-/resize/20x/ChatGPT_Image_6__202.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild3364-3535-4935-a434-663063366565/ChatGPT_Image_6__202.png",
+      "alt": "",
+      "naturalWidth": 1024
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild6231-3463-4930-b561-383835343836/ChatGPT_Image_6__202.png",
+      "alt": "",
+      "naturalWidth": 1536
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6531-3137-4734-a565-353736326563/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6561-3961-4931-b462-643966303965/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild6265-3635-4732-b762-333537656234/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 1024
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6433-6666-4239-b664-616335656366/-/resize/20x/56.PNG",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild3933-6335-4462-a161-346238353733/435322.PNG",
+      "alt": "",
+      "naturalWidth": 436
+    },
+    {
+      "src": "https://www.neurokids.kz/assets/diploma-page1.png",
+      "alt": "Diploma Preview",
+      "naturalWidth": 1213
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild3339-3533-4135-b638-336562653931/_____-_2025-10-03T12.png",
+      "alt": "",
+      "naturalWidth": 1680
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild3339-3533-4135-b638-336562653931/_____-_2025-10-03T12.png",
+      "alt": "",
+      "naturalWidth": 1680
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6435-3838-4838-b466-376133626231/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6531-3137-4734-a565-353736326563/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6561-3961-4931-b462-643966303965/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild6265-3635-4732-b762-333537656234/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 1024
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6433-6666-4239-b664-616335656366/-/resize/20x/56.PNG",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild3466-3136-4261-b730-636565393038/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6135-6266-4663-a635-383134616138/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild3466-3136-4261-b730-636565393038/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6135-6266-4663-a635-383134616138/-/resize/20x/ChatGPT_Image_29__20.png",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://thb.tildacdn.pro/tild6463-6233-4666-a264-623930663634/-/resize/20x/23132.PNG",
+      "alt": "",
+      "naturalWidth": 20
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild3339-3533-4135-b638-336562653931/_____-_2025-10-03T12.png",
+      "alt": "",
+      "naturalWidth": 1680
+    },
+    {
+      "src": "https://static.tildacdn.pro/tild3339-3533-4135-b638-336562653931/_____-_2025-10-03T12.png",
+      "alt": "",
+      "naturalWidth": 1680
+    }
+  ],
+  "iframes": [
+    {
+      "src": "",
+      "title": "",
+      "width": "100%"
+    },
+    {
+      "src": "",
+      "title": "",
+      "width": "100%"
+    },
+    {
+      "src": "",
+      "title": "",
+      "width": "100%"
+    },
+    {
+      "src": "",
+      "title": "",
+      "width": "100%"
+    },
+    {
+      "src": "",
+      "title": "",
+      "width": "100%"
+    },
+    {
+      "src": "",
+      "title": "",
+      "width": "100%"
+    },
+    {
+      "src": "",
+      "title": "",
+      "width": "100%"
+    },
+    {
+      "src": "",
+      "title": "",
+      "width": "100%"
+    },
+    {
+      "src": "",
+      "title": "",
+      "width": "100%"
+    },
+    {
+      "src": "",
+      "title": "",
+      "width": "100%"
+    },
+    {
+      "src": "",
+      "title": "",
+      "width": "100%"
+    },
+    {
+      "src": "",
+      "title": "",
+      "width": "100%"
+    },
+    {
+      "src": "",
+      "title": "",
+      "width": "100%"
+    }
+  ],
+  "bgImages": [
+    {
+      "style": "background: rgba(47, 1, 71, 0.8); color: white;",
+      "tag": "BUTTON",
+      "text": "RU ▼"
+    },
+    {
+      "style": "width: 100%; text-align: center; background: rgba(47, 1, 71, 0.8);",
+      "tag": "BUTTON",
+      "text": "RU ▼"
+    },
+    {
+      "style": "width: 100%; position: relative; top: 0; box-shadow: none; border: none; background: transparent;",
+      "tag": "DIV",
+      "text": "\n            RU\n            KZ\n          "
+    },
+    {
+      "style": "text-align: center; background: #25D366; color: white;",
+      "tag": "A",
+      "text": "WhatsApp"
+    },
+    {
+      "style": "background-image: url(\"https://static.tildacdn.pro/tild3837-3663-4464-a239-333966663935/Desktop.png\");",
+      "tag": "DIV",
+      "text": ""
+    },
+    {
+      "style": "padding-top:100px;padding-bottom:100px;background-color:#e5f2fd; ",
+      "tag": "DIV",
+      "text": "Преподаватели NeuroKids\nAI И НЕЙРОСЕТИ\nАлия Байгуж"
+    },
+    {
+      "style": "background-image:linear-gradient(0.351turn,rgba(221,200,231,1) 0%,rgba(247,213,238,1) 100%); ",
+      "tag": "DIV",
+      "text": "Успейте записаться на бесплатный пробный урок\n00\nH"
+    },
+    {
+      "style": "height: 380px; background-attachment: scroll;",
+      "tag": "DIV",
+      "text": ""
+    },
+    {
+      "style": "height: 380px; background-color: unset; opacity: 0.4;",
+      "tag": "DIV",
+      "text": ""
+    },
+    {
+      "style": "height: 100%; background-color: rgb(0, 0, 0);",
+      "tag": "DIV",
+      "text": ""
+    },
+    {
+      "style": "height: 100%; background-color: rgb(0, 0, 0);",
+      "tag": "DIV",
+      "text": ""
+    },
+    {
+      "style": "height: 100%; background-color: rgb(0, 0, 0);",
+      "tag": "DIV",
+      "text": ""
+    },
+    {
+      "style": "height: 100%; background-color: rgb(0, 0, 0);",
+      "tag": "DIV",
+      "text": ""
+    },
+    {
+      "style": "height: 100%; background-color: rgb(0, 0, 0);",
+      "tag": "DIV",
+      "text": ""
+    },
+    {
+      "style": "height: 100%; background-color: rgb(0, 0, 0);",
+      "tag": "DIV",
+      "text": ""
+    },
+    {
+      "style": "height: 100%; background-color: rgb(0, 0, 0);",
+      "tag": "DIV",
+      "text": ""
+    },
+    {
+      "style": "height: 100%; background-color: rgb(0, 0, 0);",
+      "tag": "DIV",
+      "text": ""
+    },
+    {
+      "style": "height: 100%; background-color: rgb(0, 0, 0);",
+      "tag": "DIV",
+      "text": ""
+    },
+    {
+      "style": "background-color: rgb(253, 253, 253); --zoom: 1;",
+      "tag": "DIV",
+      "text": "Жанель, 8 лет\nИИ Аватар. Изображение ожило за 1 ми"
+    },
+    {
+      "style": "height: 100%; background-color: rgb(0, 0, 0);",
+      "tag": "DIV",
+      "text": ""
+    },
+    {
+      "style": "height: 100%; background-color: rgb(0, 0, 0);",
+      "tag": "DIV",
+      "text": ""
+    },
+    {
+      "style": "height: 100%; background-color: rgb(0, 0, 0);",
+      "tag": "DIV",
+      "text": ""
+    },
+    {
+      "style": "height: 100%; background-color: rgb(0, 0, 0);",
+      "tag": "DIV",
+      "text": ""
+    },
+    {
+      "style": "padding: 100px 0; background-color: #fdfdfd; font-family: 'Manrope', Arial, sans-serif;",
+      "tag": "SECTION",
+      "text": "Международный диплом\n\nПосле завершения курса учени"
+    },
+    {
+      "style": "background: linear-gradient(135deg, #e0d7f7 0%, #fbe1ed 100%); border-radius: 40px; padding: 60px; display: flex; align-items: center; gap: 60px; position: relative; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.05);",
+      "tag": "DIV",
+      "text": "Международный диплом\n\nПосле завершения курса учени"
+    },
+    {
+      "style": "display: inline-flex; align-items: center; gap: 10px; background: white; color: #333; padding: 18px 35px; border-radius: 15px; text-decoration: none; font-weight: bold; font-size: 18px; box-shadow: 0 10px 20px rgba(0,0,0,0.05); transition: transform 0.3s;",
+      "tag": "A",
+      "text": "Просмотреть диплом →"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://www.neurokids.kz/",
+      "text": ""
+    },
+    {
+      "href": "https://www.neurokids.kz/index.html#rec1364144233",
+      "text": "О курсе"
+    },
+    {
+      "href": "https://www.neurokids.kz/index.html#rec1393341273",
+      "text": "Работы учеников"
+    },
+    {
+      "href": "https://www.neurokids.kz/index.html#rec1393344103",
+      "text": "Отзывы"
+    },
+    {
+      "href": "https://www.neurokids.kz/freelesson.html",
+      "text": "Бесплатный урок"
+    },
+    {
+      "href": "https://www.neurokids.kz/neurocreator.html",
+      "text": "NeuroCreator"
+    },
+    {
+      "href": "https://www.neurokids.kz/",
+      "text": "RU"
+    },
+    {
+      "href": "https://www.neurokids.kz/kaz.html",
+      "text": "KZ"
+    },
+    {
+      "href": "https://wa.me/77027501407",
+      "text": "WhatsApp"
+    },
+    {
+      "href": "https://www.neurokids.kz/platform",
+      "text": "🧠 Платформа"
+    },
+    {
+      "href": "https://www.neurokids.kz/index.html#rec1364144233",
+      "text": "О курсе"
+    },
+    {
+      "href": "https://www.neurokids.kz/index.html#rec1393341273",
+      "text": "Работы учеников"
+    },
+    {
+      "href": "https://www.neurokids.kz/index.html#rec1393344103",
+      "text": "Отзывы"
+    },
+    {
+      "href": "https://www.neurokids.kz/freelesson.html",
+      "text": "Бесплатный урок"
+    },
+    {
+      "href": "https://www.neurokids.kz/neurocreator.html",
+      "text": "NeuroCreator"
+    },
+    {
+      "href": "https://www.neurokids.kz/",
+      "text": "RU"
+    },
+    {
+      "href": "https://www.neurokids.kz/kaz.html",
+      "text": "KZ"
+    },
+    {
+      "href": "https://wa.me/77027501407",
+      "text": "WhatsApp"
+    },
+    {
+      "href": "https://www.neurokids.kz/platform",
+      "text": "🧠 Платформа"
+    },
+    {
+      "href": "https://neurokids.kz/neurocreator",
+      "text": "узнать о курсе"
+    },
+    {
+      "href": "https://neurokids.kz/neurostart",
+      "text": "Хочу на курс"
+    },
+    {
+      "href": "https://surl.lu/xxsuxs",
+      "text": "Забронировать место"
+    },
+    {
+      "href": "http://prjtyx444.tilda.ws/",
+      "text": "http://prjtyx444.tilda.ws"
+    },
+    {
+      "href": "https://drive.google.com/file/d/1J3rzioHjtjsShgA8X0XXChSug0PI5qTN/view?usp=sharing",
+      "text": "Просмотреть диплом →"
+    },
+    {
+      "href": "tel:+77027501407",
+      "text": "+7 (702) 750 14 07"
+    },
+    {
+      "href": "https://docs.google.com/document/d/1Xp0iraTluyuwJfcHMXs8EVit_ulsTRUuT6stLW9DbsM/edit?usp=drivesdk",
+      "text": "Договор оферты"
+    },
+    {
+      "href": "https://docs.google.com/document/d/17oy3HH61Z6ovafHzmbtyrxdfxqzzHqynx6YCCGimZq8/edit?usp=drivesdk",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "href": "https://www.neurokids.kz/index.html#rec1364144233",
+      "text": "Для кого курс?"
+    },
+    {
+      "href": "https://www.neurokids.kz/index.html#rec1393341273",
+      "text": "Работы учеников"
+    },
+    {
+      "href": "https://www.neurokids.kz/index.html#rec1393344103",
+      "text": "Отзывы"
+    },
+    {
+      "href": "https://2gis.kz/almaty/geo/9430047375024984/76.898507,43.213910",
+      "text": "Алишера Навои, 280"
+    },
+    {
+      "href": "https://www.instagram.com/neurokids__kz?igsh=cGhkaXpoa2lqYmFz",
+      "text": ""
+    },
+    {
+      "href": "https://www.tiktok.com/@neurokids.kz?_r=1&_t=ZM-91HGEG0Wdjs",
+      "text": ""
+    },
+    {
+      "href": "https://surl.lu/xxsuxs",
+      "text": ""
+    },
+    {
+      "href": "http://www.youtube.com/@Neuro_kidskz",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/neurokids__kz",
+      "text": "📷"
+    },
+    {
+      "href": "https://www.tiktok.com/@neurokids.kz",
+      "text": "🎵"
+    },
+    {
+      "href": "https://surl.lu/xxsuxs",
+      "text": "✈️"
+    },
+    {
+      "href": "http://www.youtube.com/@Neuro_kidskz",
+      "text": "📺"
+    },
+    {
+      "href": "https://www.neurokids.kz/neurocreator.html",
+      "text": "Нейрокреатор"
+    },
+    {
+      "href": "https://www.neurokids.kz/freelesson.html",
+      "text": "Бесплатный урок"
+    },
+    {
+      "href": "https://www.neurokids.kz/platform",
+      "text": "AI Платформа"
+    },
+    {
+      "href": "https://www.neurokids.kz/index.html#rec1364144233",
+      "text": "О курсе"
+    },
+    {
+      "href": "https://www.neurokids.kz/index.html#rec1393341273",
+      "text": "Работы учеников"
+    },
+    {
+      "href": "https://www.neurokids.kz/index.html#rec1393344103",
+      "text": "Отзывы"
+    },
+    {
+      "href": "https://2gis.kz/almaty/geo/9430047375024984/76.898507,43.213910",
+      "text": "Адрес"
+    },
+    {
+      "href": "tel:+77027501407",
+      "text": "+7 (702) 750 14 07"
+    },
+    {
+      "href": "mailto:info@neurokids.kz",
+      "text": "info@neurokids.kz"
+    },
+    {
+      "href": "https://docs.google.com/document/d/1Xp0iraTluyuwJfcHMXs8EVit_ulsTRUuT6stLW9DbsM/edit",
+      "text": "Договор оферты"
+    },
+    {
+      "href": "https://docs.google.com/document/d/17oy3HH61Z6ovafHzmbtyrxdfxqzzHqynx6YCCGimZq8/edit",
+      "text": "Политика конфиденциальности"
+    },
+    {
+      "href": "https://www.neurokids.kz/index.html#",
+      "text": "Юридическая информация"
+    }
+  ]
+}
